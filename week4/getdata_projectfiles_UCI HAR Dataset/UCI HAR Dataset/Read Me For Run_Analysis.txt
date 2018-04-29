@@ -1,0 +1,29 @@
+Read Me for running analysis of Samsung Data
+
+Assumptions
+1) run_analysis.R has been copied to the <Working Directory>
+2) Test files are in <Working Directory> "/test/Inertial Signals/"
+3) Train files are in <Working Directory> "/train/Inertial Signals/"
+
+Running the code
+Code can be run by sourcing run_analysis.R
+or perhaps by running the function run_analysis() in run_analysis.R
+
+The output file is df.single.tidy.dataset.txt which contains the averages for each subject (V1...) 
+in both testing and training activties across the following variables. 
+[Body X Acceleration]
+[Body Y Acceleration]
+[Body Z Acceleration]
+[Body X Gyro]
+[Body Y Gyro]
+[Body Z Gyro]
+[Total X Accelration]
+[Total Y Acceleration]
+[Total Z Acceleration]
+
+Averages  and Standard Deviation for the listed variables in each activity (testing or training)
+can be seen by calling the function 
+
+CalcMeanAndSd()
+
+The Mean and Sd for both Testing And Training are displayed but also the general mean and SD irrespective of the activity.
