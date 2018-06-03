@@ -1,0 +1,58 @@
+Code Book
+
+This is a code book to the single cleaned dataset file which contains data in the following fields.
+"Subjects" 
+"Acivity" 
+"Average Body X Acc" 
+"Average Body Y Acc" 
+"Average Body z Acc" 
+"Average Body x Gyro" 
+"Average Body y Gyro" 
+"Average Body z Gyro" 
+"Average Total X Acc" 
+"Average Total y Acc" 
+"Average Total z Acc"
+
+Explanation of the data fields.
+
+Subjects
+A string variable representing the reference number for the subject (V1 ... V99) in their Testing and Training activity 
+
+Activity: 
+Non-Coded categorical variable of two levels. It is recorded as a string, "Test" or "Train"
+
+Average Body X Acc
+This is a numeric variable representing the average of all "body_acc_x" 
+measurements collected on the subject for an activity either Test or Train.
+
+"Average Body Y Acc" 
+This is a numeric variable representing the average of all "body_acc_y" 
+measurements collected on the subject for an activity either Test or Train.
+
+"Average Body Z Acc" 
+This is a numeric variable representing the average of all "body_acc_z" 
+measurements collected on the subject for an activity either Test or Train.
+
+"Average Body X Gyro" 
+This is a numeric variable representing the average of all "body_gyro_x" 
+measurements collected on the subject for an activity either Test or Train.
+
+"Average Body Y Gyro" 
+This is a numeric variable representing the average of all "body_gyro_y" 
+measurements collected on the subject for an activity either Test or Train.
+
+"Average Body Z Gyro" 
+This is a numeric variable representing the average of all "body_gyro_z" 
+measurements collected on the subject for an activity either Test or Train.
+
+"Average Total X Acc" 
+This is a numeric variable representing the average of all "total_acc_x" 
+measurements collected on the subject for an activity either Test or Train.
+
+"Average Total Y Acc" 
+This is a numeric variable representing the average of all "total_acc_y" 
+measurements collected on the subject for an activity either Test or Train.
+
+"Average Total Z Acc" 
+This is a numeric variable representing the average of all "total_acc_z" 
+measurements collected on the subject for an activity either Test or Train.
